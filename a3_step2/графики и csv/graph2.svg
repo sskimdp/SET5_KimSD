@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect x="0" y="0" width="900" height="520" fill="white" />
+<style>
+  .axis { stroke:#000; stroke-width:1; }
+  .grid { stroke:#ddd; stroke-width:1; }
+  .label { font-family: Arial, sans-serif; font-size: 12px; fill:#000; }
+  .title { font-family: Arial, sans-serif; font-size: 14px; font-weight:bold; fill:#000; }
+</style>
+<text class="title" x="450" y="18" text-anchor="middle">Graph 2: E(N_t) with uncertainty band (±σ)</text>
+<line class="grid" x1="80" y1="30" x2="80" y2="460" />
+<text class="label" x="80" y="480" text-anchor="middle">1</text>
+<line class="grid" x1="167.778" y1="30" x2="167.778" y2="460" />
+<text class="label" x="167.778" y="480" text-anchor="middle">2</text>
+<line class="grid" x1="255.556" y1="30" x2="255.556" y2="460" />
+<text class="label" x="255.556" y="480" text-anchor="middle">3</text>
+<line class="grid" x1="343.333" y1="30" x2="343.333" y2="460" />
+<text class="label" x="343.333" y="480" text-anchor="middle">4</text>
+<line class="grid" x1="431.111" y1="30" x2="431.111" y2="460" />
+<text class="label" x="431.111" y="480" text-anchor="middle">5</text>
+<line class="grid" x1="518.889" y1="30" x2="518.889" y2="460" />
+<text class="label" x="518.889" y="480" text-anchor="middle">6</text>
+<line class="grid" x1="606.667" y1="30" x2="606.667" y2="460" />
+<text class="label" x="606.667" y="480" text-anchor="middle">7</text>
+<line class="grid" x1="694.444" y1="30" x2="694.444" y2="460" />
+<text class="label" x="694.444" y="480" text-anchor="middle">8</text>
+<line class="grid" x1="782.222" y1="30" x2="782.222" y2="460" />
+<text class="label" x="782.222" y="480" text-anchor="middle">9</text>
+<line class="grid" x1="870" y1="30" x2="870" y2="460" />
+<text class="label" x="870" y="480" text-anchor="middle">10</text>
+<line class="grid" x1="80" y1="460" x2="870" y2="460" />
+<text class="label" x="72" y="464" text-anchor="end">0</text>
+<line class="grid" x1="80" y1="374" x2="870" y2="374" />
+<text class="label" x="72" y="378" text-anchor="end">40220</text>
+<line class="grid" x1="80" y1="288" x2="870" y2="288" />
+<text class="label" x="72" y="292" text-anchor="end">80441</text>
+<line class="grid" x1="80" y1="202" x2="870" y2="202" />
+<text class="label" x="72" y="206" text-anchor="end">120661</text>
+<line class="grid" x1="80" y1="116" x2="870" y2="116" />
+<text class="label" x="72" y="120" text-anchor="end">160881</text>
+<line class="grid" x1="80" y1="30" x2="870" y2="30" />
+<text class="label" x="72" y="34" text-anchor="end">201101</text>
+<line class="axis" x1="80" y1="460" x2="870" y2="460" />
+<line class="axis" x1="80" y1="30" x2="80" y2="460" />
+<text class="label" x="450" y="505" text-anchor="middle">step (t)</text>
+<text class="label" x="18" y="260" text-anchor="middle" transform="rotate(-90 18 260)">estimated unique elements</text>
+<polygon fill="#240ea4" fill-opacity="5" stroke="none" points="80,418.362 167.778,376.689 255.556,335.336 343.333,294.381 431.111,253.434 518.889,213.039 606.667,172.171 694.444,131.379 782.222,90.439 870,50.4762 870,56.0525 782.222,96.2823 694.444,135.952 606.667,176.062 518.889,216.357 431.111,256.657 343.333,297.033 255.556,336.962 167.778,378.233 80,418.933 " />
+<polyline fill="none" stroke="#74b6e5" stroke-width="3" points="80,418.648 167.778,377.461 255.556,336.149 343.333,295.707 431.111,255.045 518.889,214.698 606.667,174.116 694.444,133.666 782.222,93.3606 870,53.2644 " />
+<polyline fill="none" stroke="#d62728" stroke-width="2" stroke-dasharray="5 3" points="80,418.362 167.778,376.689 255.556,335.336 343.333,294.381 431.111,253.434 518.889,213.039 606.667,172.171 694.444,131.379 782.222,90.439 870,50.4762 " />
+<polyline fill="none" stroke="#000000" stroke-width="2" stroke-dasharray="5 3" points="80,418.933 167.778,378.233 255.556,336.962 343.333,297.033 431.111,256.657 518.889,216.357 606.667,176.062 694.444,135.952 782.222,96.2823 870,56.0525 " />
+<line x1="90" y1="40" x2="110" y2="40" stroke="#74b6e5" stroke-width="3" />
+<text class="label" x="118" y="44" text-anchor="start">E(N_t)</text>
+<line x1="90" y1="58" x2="110" y2="58" stroke="#d62728" stroke-width="3" />
+<text class="label" x="118" y="62" text-anchor="start">E(N_t)+σ</text>
+<line x1="90" y1="76" x2="110" y2="76" stroke="#000000" stroke-width="3" />
+<text class="label" x="118" y="80" text-anchor="start">E(N_t)-σ</text>
+<line x1="90" y1="94" x2="110" y2="94" stroke="#240ea4" stroke-width="3" />
+<text class="label" x="118" y="98" text-anchor="start">band: between ±σ</text>
+</svg>

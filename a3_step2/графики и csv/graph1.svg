@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<rect x="0" y="0" width="900" height="520" fill="white" />
+<style>
+  .axis { stroke:#000; stroke-width:1; }
+  .grid { stroke:#ddd; stroke-width:1; }
+  .label { font-family: Arial, sans-serif; font-size: 12px; fill:#000; }
+  .title { font-family: Arial, sans-serif; font-size: 14px; font-weight:bold; fill:#000; }
+</style>
+<text class="title" x="450" y="18" text-anchor="middle">Graph 1: True F0^t vs HLL estimate N_t</text>
+<line class="grid" x1="80" y1="30" x2="80" y2="460" />
+<text class="label" x="80" y="480" text-anchor="middle">1</text>
+<line class="grid" x1="167.778" y1="30" x2="167.778" y2="460" />
+<text class="label" x="167.778" y="480" text-anchor="middle">2</text>
+<line class="grid" x1="255.556" y1="30" x2="255.556" y2="460" />
+<text class="label" x="255.556" y="480" text-anchor="middle">3</text>
+<line class="grid" x1="343.333" y1="30" x2="343.333" y2="460" />
+<text class="label" x="343.333" y="480" text-anchor="middle">4</text>
+<line class="grid" x1="431.111" y1="30" x2="431.111" y2="460" />
+<text class="label" x="431.111" y="480" text-anchor="middle">5</text>
+<line class="grid" x1="518.889" y1="30" x2="518.889" y2="460" />
+<text class="label" x="518.889" y="480" text-anchor="middle">6</text>
+<line class="grid" x1="606.667" y1="30" x2="606.667" y2="460" />
+<text class="label" x="606.667" y="480" text-anchor="middle">7</text>
+<line class="grid" x1="694.444" y1="30" x2="694.444" y2="460" />
+<text class="label" x="694.444" y="480" text-anchor="middle">8</text>
+<line class="grid" x1="782.222" y1="30" x2="782.222" y2="460" />
+<text class="label" x="782.222" y="480" text-anchor="middle">9</text>
+<line class="grid" x1="870" y1="30" x2="870" y2="460" />
+<text class="label" x="870" y="480" text-anchor="middle">10</text>
+<line class="grid" x1="80" y1="460" x2="870" y2="460" />
+<text class="label" x="72" y="464" text-anchor="end">0</text>
+<line class="grid" x1="80" y1="374" x2="870" y2="374" />
+<text class="label" x="72" y="378" text-anchor="end">39915</text>
+<line class="grid" x1="80" y1="288" x2="870" y2="288" />
+<text class="label" x="72" y="292" text-anchor="end">79829</text>
+<line class="grid" x1="80" y1="202" x2="870" y2="202" />
+<text class="label" x="72" y="206" text-anchor="end">119744</text>
+<line class="grid" x1="80" y1="116" x2="870" y2="116" />
+<text class="label" x="72" y="120" text-anchor="end">159658</text>
+<line class="grid" x1="80" y1="30" x2="870" y2="30" />
+<text class="label" x="72" y="34" text-anchor="end">199573</text>
+<line class="axis" x1="80" y1="460" x2="870" y2="460" />
+<line class="axis" x1="80" y1="30" x2="80" y2="460" />
+<text class="label" x="450" y="505" text-anchor="middle">step (t)</text>
+<text class="label" x="18" y="260" text-anchor="middle" transform="rotate(-90 18 260)">unique elements</text>
+<polyline fill="none" stroke="#000000" stroke-width="3" points="80,418.36 167.778,377.024 255.556,335.768 343.333,294.645 431.111,253.699 518.889,212.962 606.667,172.354 694.444,131.699 782.222,91.1365 870,50.5891 " />
+<polyline fill="none" stroke="#1f77b4" stroke-width="3" points="80,418.704 167.778,377.256 255.556,334.539 343.333,291.942 431.111,250.735 518.889,209.8 606.667,168.714 694.444,127.904 782.222,89.8222 870,50.4762 " />
+<line x1="90" y1="40" x2="110" y2="40" stroke="#000000" stroke-width="3" />
+<text class="label" x="118" y="44" text-anchor="start">F0^t (true)</text>
+<line x1="90" y1="58" x2="110" y2="58" stroke="#1f77b4" stroke-width="3" />
+<text class="label" x="118" y="62" text-anchor="start">N_t (HLL)</text>
+</svg>
